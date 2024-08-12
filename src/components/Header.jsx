@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import '../global.css';
 
 export default function Header() {
     return (
-        <header>
+        <header id='header'>
+            <h1>Loja do GuizinhoPlays123</h1>
             <nav>
             <ul>
                 <Link to='/produtos'><li>Produtos</li></Link>

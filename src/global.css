@@ -1,0 +1,90 @@
+.imagem1{
+    height: 75%;
+    width: 100%;
+}
+
+.imagem2{
+    height: 75%;
+    width: 100%;
+}
+
+#header{
+    display: flex;
+}
+
+li {
+    float: left;
+    margin: 5px;
+}
+
+.fotoprodutos{
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.control-dots{
+    display: flex;
+    justify-content: center;
+}
+
+.bloco-principal{
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   height: auto;
+   align-items: center;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.bloco-produtos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-top: 50px;
+}
+
+.bloco-produtos div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-produtos div div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+th{
+    width: 40%;
+    padding: 1rem;
+    text-align: center;
+}
+
+button{
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: purple;
+    padding: 1rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
