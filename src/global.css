@@ -1,10 +1,15 @@
 .imagem1{
-    height: 75%;
+    height: 100%;
     width: 100%;
 }
 
 .imagem2{
-    height: 75%;
+    height: 100%;
+    width: 100%;
+}
+
+.imagem3{
+    height: 100%;
     width: 100%;
 }
 
@@ -61,6 +66,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
 }
 
 .bloco-produtos div div{
@@ -81,7 +87,7 @@ button{
     border-radius: 1rem;
     border: none;
     color: white;
-    background-color: purple;
+    background-color: rgb(30, 83, 39);
     padding: 1rem;
 }
 
