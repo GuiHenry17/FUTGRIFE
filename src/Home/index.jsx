@@ -1,10 +1,11 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useState } from "react";
 import { Carousel } from 'react-responsive-carousel';
-import Header from "../components/Header";
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from "react-toastify";
 import '../global.css';
+import Header from "../components/Header/Header";
+
 
 
 export default function Home() {

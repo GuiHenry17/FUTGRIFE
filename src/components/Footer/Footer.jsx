@@ -1,6 +1,6 @@
 import '../global.css';
 
-export default function Header() {
+export default function Footer() {
     return (
         <header id='header'>
             <h1>Loja do GuizinhoPlays123</h1>
