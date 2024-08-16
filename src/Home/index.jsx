@@ -7,8 +7,6 @@ import Header from "../components/Header/Header";
 import Footer from '../components/Footer/Footer';   
 import '../global.css'
 
-
-
 export default function Home() {
 
     const [listaProdutos, setProdutos] = useState([
@@ -41,25 +39,7 @@ export default function Home() {
             item: "Camiseta do São Paulo",
             imagem: "https://images.tcdn.com.br/img/img_prod/311840/180_camisa_new_balance_sao_paulo_i_2024_patch_libertadores_135067_1_be81b65ca9721aba8769ff4d605614de.jpg",
             preco: "R$ 199,90"
-        },
-        {
-            id: 6,
-            item: "Camiseta do Botafogo",
-            imagem: 'https://images.tcdn.com.br/img/img_prod/311840/180_camisa_reebok_botafogo_i_2023_patch_libertadores_135072_1_045c1988bcaacd184a2393733feaa8f2.jpg',
-            preco: 'R$ 169,90'
-        },
-        {
-            id: 7,
-            item: 'Camiseta do Corinthians',
-            imagem: 'https://images.tcdn.com.br/img/img_prod/311840/180_camisa_polo_corinthians_1990_retro_preta_120579_1_1a2cbd4cb6c66657b4fc275644d84314.jpg',
-            preco: '239,90'
-        },
-        {
-            id: 8,
-            item: 'Camiseta do Paysandu',
-            imagem: 'https://images.tcdn.com.br/img/img_prod/311840/180_camisa_lobo_paysandu_concentracao_atleta_2024_127323_1_bd5428d6529ff070632aa4513ef0994f.jpg',
-            preco: '209,90'
-        }   
+        }, 
     ]);
 
     const [listaPedidos, setPedidos] = useState([]);
