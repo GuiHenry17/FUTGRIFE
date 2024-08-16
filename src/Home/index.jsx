@@ -42,33 +42,8 @@ export default function Home() {
         }, 
     ]);
 
-    const [listaPedidos, setPedidos] = useState([]);
-
-    const adicionarPedido = (item) => {
-        toast("Produto Adicionado!");
-        setPedidos([...listaPedidos, item]);
-    };
-
-    const removerPedido = (id) => {
-        let removeu = false
-        let listaAux = listaPedidos.filter((produto) => {
-            if (removeu == false) {
-                if (produto.id !== id) {
-                    return produto
-                } else {
-                    removeu = true;
-                    return null
-                }
-            } else {
-                return produto
-            }
-        });
-        setPedidos(listaAux);
-        toast("Produto Removido!")
-    };
-
     return (
-        <> <Header />
+        <> <Header/>
             <Carousel
                 infiniteLoop
                 useKeyboardArrows
@@ -81,7 +56,7 @@ export default function Home() {
                 <div className='imagem1'>
                     <img className='imagem1' src="/imagem1.jpeg" />
                 </div>
-                <div className='imagem2'>
+                <div className='imagem2' >
                     <img className='imagem2' src="/imagem2.jpeg" />
                 </div>
                 <div className="imagem3">
