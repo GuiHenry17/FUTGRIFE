@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Home'
 import Produtos from './components/Produtos'
 import Ofertas from './components/Ofertas'
+import './global.css';
 
 
 

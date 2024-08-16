@@ -13,8 +13,23 @@
     width: 100%;
 }
 
+#footer{
+    background-color: rgb(30, 83, 39);
+}
+
 #header{
     display: flex;
+    background-color: rgb(30, 83, 39);
+    justify-content: space-between;
+}
+
+#header h1{
+    color: rgba(255, 255, 255, 0.68);
+    padding-left: 5%;
+}
+
+#header nav{
+    padding-right: 5%;
 }
 
 li {
