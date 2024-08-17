@@ -2,33 +2,34 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.imagem1{
+.imagem1 {
     height: 100%;
     width: 100%;
 }
 
-.imagem2{
+.imagem2 {
     height: 100%;
     width: 100%;
 }
 
-.imagem3{
+.imagem3 {
     height: 100%;
     width: 100%;
 }
 
-#footer{
+#footer {
     background-color: rgb(30, 83, 39);
 }
 
-#header{
+#header {
     display: flex;
     background-color: rgb(30, 83, 39);
     justify-content: space-around;
     align-items: center;
+    height: 60px;
 }
 
-#header h1{
+#header h1 {
     color: white;
     font-weight: bold;
     font-size: xx-large;
@@ -41,33 +42,33 @@ li {
     color: white;
 }
 
-.fotoprodutos{
+.fotoprodutos {
     display: flex;
     height: 300px;
     width: 300px;
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-.control-dots{
+.control-dots {
     display: flex;
     justify-content: center;
 }
 
-.bloco-principal{
-   display: flex;
-   flex-wrap: wrap;
-   width: 100%;
-   height: auto;
-   align-items: center;
-   flex-direction: row;
-   justify-content: center;
+.bloco-principal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.bloco-produtos{
+.bloco-produtos {
     width: 100%;
     height: auto;
     display: flex;
@@ -77,10 +78,10 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2%;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
-.bloco-produtos div{
+.bloco-produtos div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -89,7 +90,7 @@ body{
     margin-top: 25px;
 }
 
-.bloco-produtos div div{
+.bloco-produtos div div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -97,13 +98,13 @@ body{
 
 }
 
-th{
+th {
     width: 40%;
     padding: 1rem;
     text-align: center;
 }
 
-button{
+button {
     border-radius: 1rem;
     border: none;
     color: white;
@@ -111,14 +112,45 @@ button{
     padding: 1rem;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-#headerprod{
+#headerprod {
     background-color: white;
+}
+
+#footer {
+    width: 100%;
+    height: 60px;
+}
+
+#footer p {
+    color: white;
+}
+
+#footer img {
+    width: 50px;
+    height: 30px;
+}
+
+#footerdiv {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagename {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(30, 83, 39);
 }
