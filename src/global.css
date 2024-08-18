@@ -17,16 +17,17 @@
     width: 100%;
 }
 
-#footer {
-    background-color: rgb(30, 83, 39);
-}
-
 #header {
     display: flex;
     background-color: rgb(30, 83, 39);
     justify-content: space-around;
     align-items: center;
     height: 60px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: lightgray;
 }
 
 #header h1 {
@@ -124,28 +125,6 @@ li {
     background-color: white;
 }
 
-#footer {
-    width: 100%;
-    height: 60px;
-}
-
-#footer p {
-    color: white;
-}
-
-#footer img {
-    width: 50px;
-    height: 30px;
-}
-
-#footerdiv {
-    display: flex;
-    flex-direction: row;
-    gap: 0.3%;
-    align-items: center;
-    justify-content: center;
-}
-
 .pagename {
     width: 100%;
     display: flex;
@@ -174,4 +153,68 @@ li {
 .pnormal {
     color: red;
     text-decoration: line-through;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 83, 39);
+    color: white;
+    padding: 1%;
+    margin-top: 100px;
+}
+
+.secao {
+    display: grid;
+}
+
+.secoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.secao h4 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.secao p {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: lightgray;
+}
+
+.copy {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.copy p {
+    margin: 0;
+}
+
+#secaocontato {
+    margin-right: 20px;
 }

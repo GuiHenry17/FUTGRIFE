@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Carousel } from 'react-responsive-carousel';
 import Header from "../components/Header/Header";
 import Footer from '../components/Footer/Footer';
+import { Link } from "react-router-dom";
 import ListarProdutos from "../components/ListarProdutos/ListarProdutos";
 
 export default function Home() {
@@ -66,15 +67,15 @@ export default function Home() {
                 showThumbs={false}
                 dynamicHeight
             >
-                <div className='imagem1'>
+                <Link to='/ofertas'> <div className='imagem1'>
                     <img className='imagem1' src="/imagem1.jpeg" />
-                </div>
-                <div className='imagem2' >
+                </div></Link>
+                <Link to='/ofertas'><div className='imagem2' >
                     <img className='imagem2' src="/imagem2.jpeg" />
-                </div>
-                <div className="imagem3">
+                </div></Link>
+                <Link to='/ofertas'><div className="imagem3">
                     <img className="imagem3" src='/imagem3.jpeg' />
-                </div>
+                </div></Link>
             </Carousel>
             <br />
 
