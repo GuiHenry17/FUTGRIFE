@@ -154,3 +154,24 @@ li {
     text-decoration: underline;
     text-decoration-color: rgb(30, 83, 39);
 }
+
+.precos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.botaoadd {
+    margin-top: 20px;
+}
+
+.pdesconto {
+    font-weight: 550;
+    margin-left: 28%;
+}
+
+.pnormal {
+    color: red;
+    text-decoration: line-through;
+}
