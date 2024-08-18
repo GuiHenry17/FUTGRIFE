@@ -1,7 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { useState } from "react";
 import { Carousel } from 'react-responsive-carousel';
-import 'react-toastify/dist/ReactToastify.css';
 import Header from "../components/Header/Header";
 import Footer from '../components/Footer/Footer';
 import ListarProdutos from "../components/ListarProdutos/ListarProdutos";
