@@ -2,6 +2,8 @@ import { useState } from "react";
 import Header from "../Header/Header";
 import Footer from '../Footer/Footer'
 import ListarProdutos from "../ListarProdutos/ListarProdutos";
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Ofertas() {
 

@@ -5,6 +5,8 @@ import Header from "../components/Header/Header";
 import Footer from '../components/Footer/Footer';
 import { Link } from "react-router-dom";
 import ListarProdutos from "../components/ListarProdutos/ListarProdutos";
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from "react-toastify";
 
 export default function Home() {
 
