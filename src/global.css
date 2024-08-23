@@ -2,6 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    height: auto;
+}
+
 .imagem1 {
     height: 100%;
     width: 100%;
@@ -19,7 +23,7 @@
 
 #header {
     display: flex;
-    background-color: rgb(51, 95, 36);
+    background-color: rgb(26, 77, 14);
     justify-content: space-around;
     align-items: center;
     height: 60px;
@@ -109,7 +113,7 @@ button {
     border-radius: 1rem;
     border: none;
     color: white;
-    background-color: rgb(51, 95, 36);
+    background-color: rgb(26, 77, 14);
     padding: 1rem;
 }
 
@@ -160,7 +164,7 @@ li {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: rgb(51, 95, 36);
+    background-color: rgb(26, 77, 14);
     color: white;
     padding: 1%;
     margin-top: 100px;
@@ -219,6 +223,11 @@ li {
     margin-right: 20px;
 }
 
-#navg{
+#navg {
     height: 100%;
+    flex-wrap: wrap;
+}
+
+#produtoos {
+    margin-bottom: 10px;
 }
