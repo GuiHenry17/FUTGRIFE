@@ -14,7 +14,7 @@ export default function Home() {
         {
             id: 1,
             item: "Camiseta Botafogo",
-            imagem: 'https://images.tcdn.com.br/img/img_prod/311840/180_camisa_reebok_botafogo_i_2023_patch_libertadores_135072_1_045c1988bcaacd184a2393733feaa8f2.jpg',
+            imagem: 'https://static.dafiti.com.br/p/retr%C3%B4mania-camisa-botafogo-retr%C3%B4-1910-escudo-3678-55174121-1-zoom.jpg',
             preco: 'R$169,90',
             precodesconto: 'R$149,90',
             oferta: true,
