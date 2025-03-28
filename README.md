@@ -1,8 +1,35 @@
-# React + Vite
+# FUTGRIFE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FUTGRIFE** é um projeto desenvolvido para proporcionar uma experiência interativa e dinâmica utilizando **React.js**. O projeto tem como objetivo fornecer uma interface amigável para manipulação de informações relacionadas ao gerenciamento de dados para sistemas de futebol, como times, jogadores e estatísticas.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## Funcionalidades
+
+- Exibição de informações sobre times e jogadores de futebol.
+- Interface interativa para consulta e gerenciamento dos dados.
+- Arquitetura simples, adequada para testar conceitos de desenvolvimento web.
+
+## Como Executar
+
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/GuiHenry17/FUTGRIFE.git
+   ```
+
+2. Instale as dependências:
+   ```sh
+   cd FUTGRIFE
+   npm install
+   ```
+
+3. Inicie o projeto:
+   ```sh
+   npm run dev
+   ```
